@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(151, 115, 115);
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px 25px 0px 0px; 
+}
+
+footer p{
+    padding-left: 32px;
+    padding-right: 32px;
+}

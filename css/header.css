@@ -1,0 +1,40 @@
+h1{
+    margin-left: 45px;
+}
+
+header {
+    background-color: rgb(169, 169, 169);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 25px 25px; 
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.items_list{
+    align-content: center;
+}
+
+.header_list {
+    
+    list-style-type:none;
+    margin: 0px;
+    padding: 8px;
+    display: flex;
+    gap: 25px;
+    margin-right: 45px;
+    
+   
+}
+
+.header_list li {
+    
+  font-size: 16px; 
+  margin: 0px 18px;
+
+}
+
+.header_list a{
+    color: inherit; 
+    text-decoration: none; 
+}
