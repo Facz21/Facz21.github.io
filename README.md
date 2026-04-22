@@ -1,3 +1,2 @@
-# Repo de prueba
-
-este es un repo de prueba para ver como se usa Git u Git_Hub
+# Borrador de mi portafolio 
+este es un borrador de mi portafolio personal
