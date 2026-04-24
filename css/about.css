@@ -41,6 +41,7 @@
 
 .foto-presentacion{
   display: flex;
+  gap: 1rem;
   justify-content: center;
   flex-direction: column;
 }
@@ -57,7 +58,12 @@
 
 .texto-presentacion {
   display: flex;
+  margin-bottom: 10%;
+  justify-content: center;
   flex-direction: column;
   
 }
 
+.texto-presentacion span {
+  font-size: 25px;
+}
