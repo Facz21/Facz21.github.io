@@ -14,27 +14,29 @@
 .project-card {
   width: 100%;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,0.06);
   padding: 1.25rem;
   border-radius: 16px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.55);
+  border: 1px solid rgba(255,255,255,0.08);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  color: #fff;
 }
 
 .project-card h3 {
   font-size: 1.1rem;
-  color: #222;
+  color: #fff;
 }
 
 .project-card p {
-  color: #444;
+  color: rgba(255,255,255,0.9);
   font-size: 0.95rem;
 }
 
 .project-card ul {
-  color: #444;
+  color: rgba(255,255,255,0.9);
   margin-left: 1rem;
 }
 
@@ -48,5 +50,19 @@
   text-decoration: none;
   font-weight: 600;
   width: max-content;
+  transition: background 180ms ease, transform 120ms ease, box-shadow 180ms ease;
+}
+
+.btn:hover,
+.btn:focus{
+  background: linear-gradient(180deg, #4a8ed1, #2b6cb0);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(43,108,176,0.16);
+  outline: none;
+}
+
+.btn:active{
+  transform: translateY(0);
+  box-shadow: none;
 }
 

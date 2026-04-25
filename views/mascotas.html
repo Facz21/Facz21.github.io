@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Andrés Felipe Cortés Zambrano">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <title>Mis Mascotas - FACZ</title>
+</head>
+
+<body>
+  <canvas id="stars-canvas" aria-hidden="true"></canvas>
+  <a class="back-btn" href="/index.html" aria-label="Regresar a la página principal">← Inicio</a>
+
+  <main>
+    <section class="mascotas">
+      <h1 class="mascotas-title">Mis Mascotas</h1>
+      <div class="pets-grid">
+        <article class="pet-card" data-desc="Growlithe: perro valiente y leal.">
+          <div class="pet-media"><img src="/assets/images/1200px-Growlithe_de_Hisui.webp" alt="Growlithe" loading="lazy"></div>
+          <div class="pet-info"><h3>Growlithe</h3></div>
+        </article>
+
+        <article class="pet-card" data-desc="Miltank: fuerte y cariñosa.">
+          <div class="pet-media"><img src="/assets/images/800px-Miltank.webp" alt="Miltank" loading="lazy"></div>
+          <div class="pet-info"><h3>Miltank</h3></div>
+        </article>
+
+        <article class="pet-card" data-desc="Zoroark: astuto y enigmático.">
+          <div class="pet-media"><img src="/assets/images/800px-Zoroark.webp" alt="Zoroark" loading="lazy"></div>
+          <div class="pet-info"><h3>Zoroark</h3></div>
+        </article>
+
+        <article class="pet-card" data-desc="Sylveon: dulce y protector.">
+          <div class="pet-media"><img src="/assets/images/800px-Sylveon.webp" alt="Sylveon" loading="lazy"></div>
+          <div class="pet-info"><h3>Sylveon</h3></div>
+        </article>
+
+        <article class="pet-card" data-desc="Pikachu: eléctrico y siempre listo para una aventura.">
+          <div class="pet-media"><img src="/assets/images/800px-Pikachu.webp" alt="Pikachu" loading="lazy"></div>
+          <div class="pet-info"><h3>Pikachu</h3></div>
+        </article>
+
+        <article class="pet-card" data-desc="Lapras: tranquilo y resistente en el agua.">
+          <div class="pet-media"><img src="/assets/images/1200px-Lapras.webp" alt="Lapras" loading="lazy"></div>
+          <div class="pet-info"><h3>Lapras</h3></div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/parallax-stars.js" defer></script>
+  <script src="/js/mascotas-modal.js" defer></script>
+</body>
+
+</html>
